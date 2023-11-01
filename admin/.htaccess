@@ -1,0 +1,12 @@
+
+<Files "properties.txt">
+order allow,deny
+deny from all
+</Files>
+
+AuthType Basic
+AuthName "Área Restrita"
+AuthUserFile "/var/www/html/chatbot/admin/.htpasswd"
+Require valid-user
+
+
